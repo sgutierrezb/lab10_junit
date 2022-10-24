@@ -11,17 +11,24 @@ import org.junit.Test;
 public class AppTest 
 {
     
-	@Test
-	public void testSumar() {		
-		App app = new App();		
-		assertEquals(7 , app.sumar(4, 3));
+	public void testSumar()
+	{
+		App app=new App();
+		assertEquals(7,app.sumar(4,3));
 	}
-	
-	@Test
-	public void testRestar() {
-		App app = new App();		
-		assertEquals(1 , app.restar(4, 3));		
+	public void testRestar()
+	{
+		App app=new App();
+		assertEquals(7,app.restar(4,3));
 	}
-
+	public void testMultiplicar()
+	{
+		App app=new App();
+		assertEquals(7,app.multiplicar(4,3));
+	}
+	public void testDividir()
+	{
+		App app=new App();
+		assertEquals(7,app.dividir(4,3));
+	}
 }
-
